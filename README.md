@@ -22,3 +22,32 @@ https://nodejs.org/en/learn/getting-started/an-introduction-to-the-npm-package-m
 
 ## others
 https://github.com/merin83/react-without-build-tools-example/tree/master
+
+## questions
+
+vite
+---
+rewrite imports
+module resolution
+minify
+uglify
+
+esbuild
+---
+[esbuild] is an extremely fast, open-source module bundler and minifier for JavaScript and CSS
+It bundles various code modules ([ES modules] and [CommonJS]) into optimized static files for deployment
+Tree Shaking: esbuild can automatically remove unused code ([tree shaking]) from ES6 modules, resulting in smaller, more efficient bundles.
+Development Features: It includes features beneficial for development, such as a local [development server], 
+[watch mode] for automatic rebuilds on file changes, and source map generation.
+
+tsc
+npx
+babel
+jsx vs tsx vs js - compile jsx to js ?
+rollup
+HMR  - hot module replacement
+native ES modules
+
+JSX transform
+automatic JSX runtime
+https://javascript.plainenglish.io/how-react-uses-jsx-5bc989ebc674
