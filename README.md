@@ -40,6 +40,9 @@ Tree Shaking: esbuild can automatically remove unused code ([tree shaking]) from
 Development Features: It includes features beneficial for development, such as a local [development server], 
 [watch mode] for automatic rebuilds on file changes, and source map generation.
 
+https://dev.to/marcinwosinek/esbuild-in-a-simple-html-js-usecase-h1d
+https://github.com/marcin-wosinek/js-html-comparison-esbuild/tree/main
+
 tsc
 npx
 babel
