@@ -19,3 +19,6 @@ https://www.jetbrains.com/help/webstorm/starting-the-debugger-session.html
 
 ## npm package manager
 https://nodejs.org/en/learn/getting-started/an-introduction-to-the-npm-package-manager
+
+## others
+https://github.com/merin83/react-without-build-tools-example/tree/master
