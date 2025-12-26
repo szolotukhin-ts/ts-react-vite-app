@@ -54,3 +54,14 @@ native ES modules
 JSX transform
 automatic JSX runtime
 https://javascript.plainenglish.io/how-react-uses-jsx-5bc989ebc674
+
+react
+---
+
+## state
+- useState
+- useContext
+- useRef
+https://legacy.reactjs.org/docs/hooks-state.html
+
+[book] Just React. Learn React the React Way - Hari Narayn 2022.pdf -> State in React
