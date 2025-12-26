@@ -74,3 +74,6 @@ export default defineConfig([
 
 ## Tutorial URLs
 https://medium.com/@robinviktorsson/complete-guide-to-setting-up-react-with-typescript-and-vite-2025-468f6556aaf2
+
+## WebStorm
+https://www.jetbrains.com/help/webstorm/starting-the-debugger-session.html
