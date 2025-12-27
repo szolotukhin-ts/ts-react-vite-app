@@ -59,10 +59,10 @@ react
 ---
 
 ## state
-- useState
-- useContext
-- useRef
-- useReducer
+- useState - rerender when state change
+- useContext - drilling down props problem
+- useRef - not rerender
+- useReducer - like redux
 https://legacy.reactjs.org/docs/hooks-state.html
 https://www.youtube.com/@Codevolution/videos
 
@@ -70,6 +70,11 @@ https://www.youtube.com/@Codevolution/videos
 
 - custom hook - reusable logic
 - useEffect - event listener of component mounting/unmounting , state change, after render
+
+## performance
+memo
+useMemo
+useCallback
 
 ## CSS
 https://www.geeksforgeeks.org/css/how-to-setup-tailwind-css-with-vite/
@@ -93,8 +98,6 @@ https://www.geeksforgeeks.org/mongodb/mongodb-backup-and-restoration/
 - StrictMode
 
 ## hooks - todo
-useMemo,
-useCallback,
 
 useImperativeHandle,
 useLayoutEffect,
