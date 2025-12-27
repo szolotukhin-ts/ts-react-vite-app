@@ -68,6 +68,9 @@ https://www.youtube.com/@Codevolution/videos
 
 [book] Just React. Learn React the React Way - Hari Narayn 2022.pdf -> State in React
 
+- custom hook - reusable logic
+- useEffect - event listener of component mounting/unmounting , state change, after render
+
 ## CSS
 https://www.geeksforgeeks.org/css/how-to-setup-tailwind-css-with-vite/
 https://www.yourteaminindia.com/tech-insights/guide-to-using-tailwind-css-with-react
@@ -83,7 +86,7 @@ https://www.geeksforgeeks.org/mongodb/how-to-seed-a-mongodb-database-using-docke
 https://www.geeksforgeeks.org/mongodb/mongodb-backup-and-restoration/
 
 ## TODO
-- custome hooks
+
 - axios
 - async/await
 - modules
@@ -91,7 +94,7 @@ https://www.geeksforgeeks.org/mongodb/mongodb-backup-and-restoration/
 ## hooks - todo
 useMemo,
 useCallback,
-useEffect,
+
 useImperativeHandle,
 useLayoutEffect,
 useDebugValue,
