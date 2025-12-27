@@ -77,4 +77,7 @@ https://medium.com/@akhshyganesh/the-right-way-to-setup-react-and-tailwind-css-w
 ## REST API with Node.js and TypeScript
 https://medium.com/@holasoymalva/how-to-build-a-rest-api-with-node-js-and-typescript-3491ddd19f95
 
+## MongoDB and Mongoose in TypeScript
+https://medium.com/@rosarioborgesi/getting-started-with-mongodb-and-mongoose-in-typescript-3c5951c9ea7a
+https://www.geeksforgeeks.org/mongodb/how-to-seed-a-mongodb-database-using-docker-compose/
 
