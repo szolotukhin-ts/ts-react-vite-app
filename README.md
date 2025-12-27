@@ -62,6 +62,7 @@ react
 - useState
 - useContext
 - useRef
+- useReducer
 https://legacy.reactjs.org/docs/hooks-state.html
 https://www.youtube.com/@Codevolution/videos
 
