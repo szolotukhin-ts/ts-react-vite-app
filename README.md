@@ -90,6 +90,7 @@ https://www.geeksforgeeks.org/mongodb/mongodb-backup-and-restoration/
 - axios
 - async/await
 - modules
+- StrictMode
 
 ## hooks - todo
 useMemo,
@@ -98,4 +99,6 @@ useCallback,
 useImperativeHandle,
 useLayoutEffect,
 useDebugValue,
+
+
 
