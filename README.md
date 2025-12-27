@@ -82,5 +82,17 @@ https://medium.com/@rosarioborgesi/getting-started-with-mongodb-and-mongoose-in-
 https://www.geeksforgeeks.org/mongodb/how-to-seed-a-mongodb-database-using-docker-compose/
 https://www.geeksforgeeks.org/mongodb/mongodb-backup-and-restoration/
 
+## TODO
+- custome hooks
+- axios
+- async/await
+- modules
 
+## hooks - todo
+useMemo,
+useCallback,
+useEffect,
+useImperativeHandle,
+useLayoutEffect,
+useDebugValue,
 
