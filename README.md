@@ -67,3 +67,10 @@ https://legacy.reactjs.org/docs/hooks-state.html
 https://www.youtube.com/@Codevolution/videos
 
 [book] Just React. Learn React the React Way - Hari Narayn 2022.pdf -> State in React
+
+## CSS
+https://www.geeksforgeeks.org/css/how-to-setup-tailwind-css-with-vite/
+https://www.yourteaminindia.com/tech-insights/guide-to-using-tailwind-css-with-react
+https://dev.to/syedahmedullah14/building-a-modern-website-with-react-tailwind-css-and-vite-4o21
+https://medium.com/@akhshyganesh/the-right-way-to-setup-react-and-tailwind-css-with-vite-ae5027f57dda
+
