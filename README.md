@@ -74,3 +74,7 @@ https://www.yourteaminindia.com/tech-insights/guide-to-using-tailwind-css-with-r
 https://dev.to/syedahmedullah14/building-a-modern-website-with-react-tailwind-css-and-vite-4o21
 https://medium.com/@akhshyganesh/the-right-way-to-setup-react-and-tailwind-css-with-vite-ae5027f57dda
 
+## REST API with Node.js and TypeScript
+https://medium.com/@holasoymalva/how-to-build-a-rest-api-with-node-js-and-typescript-3491ddd19f95
+
+
