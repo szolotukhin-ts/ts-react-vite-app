@@ -90,11 +90,12 @@ https://medium.com/@rosarioborgesi/getting-started-with-mongodb-and-mongoose-in-
 https://www.geeksforgeeks.org/mongodb/how-to-seed-a-mongodb-database-using-docker-compose/
 https://www.geeksforgeeks.org/mongodb/mongodb-backup-and-restoration/
 
+## done
+- fetch / axios / useQuery / SWR - call REST API
+
 ## TODO
--> fetch
-- axios - call REST API
 - route
-- async/await
+- async/await  Promise
 - modules
 - StrictMode
 - pattern
