@@ -92,11 +92,12 @@ https://www.geeksforgeeks.org/mongodb/mongodb-backup-and-restoration/
 
 ## TODO
 -> fetch
-- axios
+- axios - call REST API
 - route
 - async/await
 - modules
 - StrictMode
+- pattern
 
 ## hooks - todo
 
