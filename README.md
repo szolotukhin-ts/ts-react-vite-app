@@ -106,5 +106,15 @@ useImperativeHandle,
 useLayoutEffect,
 useDebugValue,
 
+## What are micro tasks and macro tasks in the event loop
+https://www.youtube.com/watch?v=L18RHG2DwwA&list=PLC3y8-rFHvwj1_l8acs_lBi3a0HNb3bAN&index=1
+
+libuv - ?
+event loop - ?
+phases of event loop - ?
+
+https://nodejs.org/en/learn/asynchronous-work/event-loop-timers-and-nexttick
+
+In Node.js, each iteration of an event loop is called a tick. 
 
 
