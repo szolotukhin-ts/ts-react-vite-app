@@ -94,11 +94,11 @@ https://www.geeksforgeeks.org/mongodb/mongodb-backup-and-restoration/
 - fetch / axios / useQuery / SWR - call REST API
 
 ## TODO
-- route
-- async/await  Promise
-- modules
-- StrictMode
-- pattern
+- async/await  Promise [js]
+- route [react]
+- modules [js]
+- pattern 
+- StrictMode [react]
 
 ## hooks - todo
 
