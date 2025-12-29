@@ -20,23 +20,27 @@ Instead, they run in their own queues and get processed at specific checkpoints 
 
 =======================================================================================================================
 The Event Loop: Execution Order
-- Execute all synchronous code (Call Stack)
-- Execute process.nextTick()
-- Execute Microtasks (Promises, async/await)
-- Execute Macro-tasks (setTimeout, I/O, setImmediate)
+- Execute all synchronous code (Call Stack / Execution Stack)
+- Execute process.nextTick() (Node.js)
+- Execute all Microtasks (Promises, async/await, queueMicrotask)
+- Execute one Macro-tasks (setTimeout, I/O, setImmediate, XMLHttpRequest (XHR))
+- Repeat
 
 =======================================================================================================================
 microtask - Micro-task Queue (or Job Queue)
 
 Microtasks are smaller, more urgent tasks that are executed after the currently executing macrotask has completed, 
 but before the Event Loop moves to the next phase.
+Only after tasks in microTasks are completed / excahusted, event loop will next pick up one task from macroTasks. 
 
-- process.nextTick()
+- process.nextTick() - (Node.js)
 - Promise, async/await
-- MutationObserver
-- queueMicrotask
+- MutationObserver - (Browsers)
+- queueMicrotask -  A direct way to queue a microtask.
 
 macrotask - Callback Queue (Macro-task Queue).
+
+timers, event listeners (click, scroll etc), UI updates, I/O Operations: File reading, network requests
 
 =======================================================================================================================
 Event Loop Phases
@@ -44,10 +48,12 @@ Event Loop Phases
 - Pending - Executes most system callbacks (e.g., TCP errors).
 - Idle, prepare phase - Internal to Node.js.
 - Poll phase
-- Check phase - setImmediate callbacks.
+- Check phase - setImmediate callbacks. (Node.js)
 - Close -
 
 =======================================================================================================================
 questions
 
 MessageChannel callbacks
+
+If the call stack is empty, the event loop moves the first task from the message queue to the call stack.
