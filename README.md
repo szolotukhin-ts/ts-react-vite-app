@@ -115,6 +115,7 @@ https://docs.libuv.org/en/v1.x/guide/basics.html
 https://www.geeksforgeeks.org/node-js/libuv-in-node-js/
 event loop - ?
 https://medium.com/@rahul.jindal57/event-loop-in-node-js-76edd2ff909d
+https://nairihar.medium.com/you-dont-know-node-js-eventloop-8ee16831767
 https://medium.com/@2001dkmaurya/nodejs-09-libuv-event-loop-1020aced39b8
 phases of event loop - ?
 
