@@ -108,5 +108,6 @@ useDebugValue,
 
 ## express + react
 https://github.com/Bikranshu/express-react-boilerplate/tree/master
+https://github.com/spinsage/express-typescript-starter-rest/tree/main
 
 
