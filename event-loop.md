@@ -6,9 +6,9 @@ https://medium.com/@rishabhshkl820/understanding-libuv-the-backbone-of-node-js-a
 https://docs.libuv.org/en/v1.x/guide/basics.html
 https://www.geeksforgeeks.org/node-js/libuv-in-node-js/
 event loop - ?
-https://medium.com/@rahul.jindal57/event-loop-in-node-js-76edd2ff909d
 https://nairihar.medium.com/you-dont-know-node-js-eventloop-8ee16831767
 https://medium.com/@2001dkmaurya/nodejs-09-libuv-event-loop-1020aced39b8
+https://medium.com/@rahul.jindal57/event-loop-in-node-js-76edd2ff909d
 phases of event loop - ?
 
 https://nodejs.org/en/learn/asynchronous-work/event-loop-timers-and-nexttick
@@ -45,9 +45,9 @@ timers, event listeners (click, scroll etc), UI updates, I/O Operations: File re
 =======================================================================================================================
 Event Loop Phases
 - Timers - setTimeout / setInterval callbacks.
-- Pending - Executes most system callbacks (e.g., TCP errors).
+- Pending - Executes most system callbacks (e.g., TCP errors).  Handles I/O callbacks deferred to the next loop iteration 
 - Idle, prepare phase - Internal to Node.js.
-- Poll phase
+- Poll phase - Retrieves new I/O events, executes relevant callbacks, and blocks if necessary while waiting for I/O.
 - Check phase - setImmediate callbacks. (Node.js)
 - Close -
 
